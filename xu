@@ -27,3 +27,4 @@ IP-CIDR,208.67.222.222/32,no-resolve
 IP-CIDR,208.67.220.220/32,no-resolve
 DOMAIN-KEYWORD,ctc,节点选择
 DOMAIN-KEYWORD,ssrdog,节点选择
+DOMAIN-KEYWORD,javdb,节点选择
