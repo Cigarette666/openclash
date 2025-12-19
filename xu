@@ -28,10 +28,12 @@ IP-CIDR,208.67.220.220/32,no-resolve
 DOMAIN-KEYWORD,Autodesk,DIRECT
 DOMAIN-KEYWORD,ctc,节点选择
 DOMAIN-KEYWORD,ssrdog,节点选择
-DOMAIN-KEYWORD,javdb,节点选择
 DOMAIN-KEYWORD,xiongmaobt,节点选择
 DOMAIN-KEYWORD,runtufenxiang,节点选择
 DOMAIN-KEYWORD,loan4k,节点选择
 DOMAIN-KEYWORD,rfa,节点选择
 DOMAIN-KEYWORD,downloadtorrentfile,节点选择
 DOMAIN-KEYWORD,ping0,节点选择
+DOMAIN-SUFFIX,javdb.com,节点选择
+DOMAIN-SUFFIX,jdbstatic.com,节点选择
+DOMAIN-SUFFIX,jdbvideo.com,节点选择
