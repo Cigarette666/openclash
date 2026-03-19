@@ -1,0 +1,21 @@
+# --- HBO 專用分流規則 ---
+# 使用 SUFFIX 確保主站與所有子網域精確分流
+- DOMAIN-SUFFIX,hbomax.com,HBO
+- DOMAIN-SUFFIX,max.com,HBO
+- DOMAIN-SUFFIX,discomax.com,HBO
+- DOMAIN-SUFFIX,hbo.com,HBO
+  
+# 內容傳遞網路與資源網域
+- DOMAIN-SUFFIX,warnermediacdn.com,HBO
+- DOMAIN-SUFFIX,wmff.warnermediadn.com,HBO
+- DOMAIN-SUFFIX,turner.com,HBO
+- DOMAIN-SUFFIX,bitmovin.com,HBO
+- DOMAIN-SUFFIX,ngtv.io,HBO
+  
+# 品質監控與數據分析
+- DOMAIN-SUFFIX,conviva.com,HBO
+- DOMAIN-SUFFIX,go-mpulse.net,HBO
+- DOMAIN-SUFFIX,akstat.io,HBO
+  
+# 使用 KEYWORD 捕獲動態生成的 CDN 網址
+- DOMAIN-KEYWORD,akamaihd,HBO
