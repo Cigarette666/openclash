@@ -33,4 +33,11 @@ DOMAIN-KEYWORD,downloadtorrentfile
 DOMAIN-KEYWORD,ping0
 DOMAIN-KEYWORD,javdb
 
+# Cloudflare 官方相关服务 (强制直连)
+DOMAIN-SUFFIX,cloudflare.com,DIRECT
+DOMAIN-SUFFIX,cloudflare-dns.com,DIRECT
+DOMAIN-SUFFIX,cloudflarestatus.com,DIRECT
+DOMAIN-SUFFIX,every1dns.net,DIRECT
+DOMAIN-SUFFIX,one.one.one.one,DIRECT
+
 
