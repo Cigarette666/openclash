@@ -40,4 +40,10 @@ DOMAIN-SUFFIX,cloudflarestatus.com,DIRECT
 DOMAIN-SUFFIX,every1dns.net,DIRECT
 DOMAIN-SUFFIX,one.one.one.one,DIRECT
 
+# LINE 分流（新增）
+DOMAIN-KEYWORD,line,🇹🇼 台湾手选A
+DOMAIN-SUFFIX,line.me,🇹🇼 台湾手选A
+DOMAIN-SUFFIX,line-apps.com,🇹🇼 台湾手选A
+DOMAIN-SUFFIX,naver.jp,🇹🇼 台湾手选A
+
 
