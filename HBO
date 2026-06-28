@@ -1,38 +1,28 @@
-# 主網域與核心 API
-DOMAIN-SUFFIX,hbomax.com
-DOMAIN-SUFFIX,hbo.com
+# === 主網域 / API ===
 DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,discomax.com
 DOMAIN-SUFFIX,api.max.com
 DOMAIN-SUFFIX,auth.max.com
+DOMAIN-SUFFIX,play.max.com
 
-# Warner / 服務基礎網域
-DOMAIN-SUFFIX,warnermedia.com
-DOMAIN-SUFFIX,warnermediacdn.com
+# === Warner 核心 ===
 DOMAIN-SUFFIX,wbd.com
 DOMAIN-SUFFIX,turner.com
 
-# CDN / 播放資源
+# === CDN / 播放 ===
 DOMAIN-SUFFIX,hbomaxcdn.com
 DOMAIN-SUFFIX,maxcdn.com
-DOMAIN-SUFFIX,wmff.warnermediacdn.com
 DOMAIN-SUFFIX,wmcdp.io
+DOMAIN-SUFFIX,wmff.warnermediacdn.com
 
-# 播放技術 / DRM / 驗證
+# === DRM / 播放控制 ===
 DOMAIN-SUFFIX,bitmovin.com
-DOMAIN-SUFFIX,ngtv.io
-DOMAIN-SUFFIX,brightline.tv
 DOMAIN-SUFFIX,arkoselabs.com
-DOMAIN-SUFFIX,pypestream.com
-
-# 數據分析 / 推送 / 監控
 DOMAIN-SUFFIX,conviva.com
-DOMAIN-SUFFIX,go-mpulse.net
-DOMAIN-SUFFIX,akstat.io
 DOMAIN-SUFFIX,litix.io
-DOMAIN-SUFFIX,branch.io
 
-# 區域認證與防漏補充
-DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
-DOMAIN-SUFFIX,disney-plus.net
-DOMAIN-KEYWORD,hbomax
+# === 可选优化 ===
+DOMAIN-SUFFIX,branch.io
+DOMAIN-SUFFIX,go-mpulse.net
