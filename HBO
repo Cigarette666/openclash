@@ -1,29 +1,31 @@
-# --- HBO Max / Max 串流服務規則集 ---
 # 主網域與核心 API
 DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,discomax.com
 
-# 內容分發與資源網域 (CDN & Media)
+# Warner / 服務基礎網域
+DOMAIN-SUFFIX,warnermedia.com
 DOMAIN-SUFFIX,warnermediacdn.com
-DOMAIN-SUFFIX,wmff.warnermediadn.com
+DOMAIN-SUFFIX,wbd.com
 DOMAIN-SUFFIX,turner.com
-DOMAIN-SUFFIX,wmcdp.io
-DOMAIN-SUFFIX,media.h264.io
-DOMAIN-KEYWORD,akamaihd
 
-# 播放器技術與第三方支援 (DRM, Auth, Web)
+# CDN / 播放資源
+DOMAIN-SUFFIX,hbomaxcdn.com
+DOMAIN-SUFFIX,maxcdn.com
+DOMAIN-SUFFIX,wmff.warnermediacdn.com
+DOMAIN-SUFFIX,wmcdp.io
+
+# 播放技術 / DRM / 驗證
 DOMAIN-SUFFIX,bitmovin.com
 DOMAIN-SUFFIX,ngtv.io
 DOMAIN-SUFFIX,brightline.tv
 DOMAIN-SUFFIX,arkoselabs.com
 DOMAIN-SUFFIX,pypestream.com
 
-# 數據監控、分析與推送 (Analytics & Push)
+# 數據分析 / 推送 / 監控
 DOMAIN-SUFFIX,conviva.com
 DOMAIN-SUFFIX,go-mpulse.net
 DOMAIN-SUFFIX,akstat.io
 DOMAIN-SUFFIX,litix.io
 DOMAIN-SUFFIX,branch.io
-DOMAIN-KEYWORD,mediamelon
