@@ -12,10 +12,14 @@ DOMAIN-SUFFIX,wbd.com
 DOMAIN-SUFFIX,turner.com
 
 # === CDN / 播放 ===
+DOMAIN-SUFFIX,h264.io
+DOMAIN-SUFFIX,vrtzcdn.com
 DOMAIN-SUFFIX,hbomaxcdn.com
 DOMAIN-SUFFIX,maxcdn.com
 DOMAIN-SUFFIX,wmcdp.io
 DOMAIN-SUFFIX,wmff.warnermediacdn.com
+DOMAIN-SUFFIX,wbdcdn.com
+DOMAIN-SUFFIX,telemetrycdn.com
 
 # === DRM / 播放控制 ===
 DOMAIN-SUFFIX,bitmovin.com
@@ -23,6 +27,7 @@ DOMAIN-SUFFIX,arkoselabs.com
 DOMAIN-SUFFIX,conviva.com
 DOMAIN-SUFFIX,litix.io
 
-# === 可选优化 ===
+# === 身分驗證與選用優化 ===
+DOMAIN-SUFFIX,cognito.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,branch.io
 DOMAIN-SUFFIX,go-mpulse.net
