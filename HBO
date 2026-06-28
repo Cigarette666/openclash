@@ -1,47 +1,38 @@
-# === 主網域與核心 API ===
-DOMAIN-SUFFIX,max.com
+# 主網域與核心 API
 DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,discomax.com
-DOMAIN-SUFFIX,cinemax.com
-DOMAIN-SUFFIX,maxgo.com
 DOMAIN-SUFFIX,api.max.com
 DOMAIN-SUFFIX,auth.max.com
 
-# === Warner / 服務基礎網域 ===
+# Warner / 服務基礎網域
 DOMAIN-SUFFIX,warnermedia.com
 DOMAIN-SUFFIX,warnermediacdn.com
 DOMAIN-SUFFIX,wbd.com
 DOMAIN-SUFFIX,turner.com
 
-# === CDN / 播放資源 ===
+# CDN / 播放資源
 DOMAIN-SUFFIX,hbomaxcdn.com
 DOMAIN-SUFFIX,maxcdn.com
 DOMAIN-SUFFIX,wmff.warnermediacdn.com
 DOMAIN-SUFFIX,wmcdp.io
-DOMAIN-SUFFIX,hbolacontent.net
 
-# === 播放技術 / DRM / 驗證 ===
+# 播放技術 / DRM / 驗證
 DOMAIN-SUFFIX,bitmovin.com
 DOMAIN-SUFFIX,ngtv.io
 DOMAIN-SUFFIX,brightline.tv
 DOMAIN-SUFFIX,arkoselabs.com
 DOMAIN-SUFFIX,pypestream.com
 
-# === 數據分析 / 推送 / 監控 ===
+# 數據分析 / 推送 / 監控
 DOMAIN-SUFFIX,conviva.com
 DOMAIN-SUFFIX,go-mpulse.net
 DOMAIN-SUFFIX,akstat.io
 DOMAIN-SUFFIX,litix.io
 DOMAIN-SUFFIX,branch.io
 
-# === 各地區歷史遺留與舊版服務網域 (HBO GO / NOW) ===
-DOMAIN-SUFFIX,hbogo.com
-DOMAIN-SUFFIX,hbonow.com
-DOMAIN-SUFFIX,homebox.com
-DOMAIN-SUFFIX,homeboxoffice.com
-DOMAIN-SUFFIX,hbogoasia.com
-DOMAIN-SUFFIX,hbogoasia.hk
-DOMAIN-SUFFIX,hbogoasia.id
-DOMAIN-SUFFIX,hbogoasia.my
-DOMAIN-SUFFIX,hbogoasia.ph
+# 區域認證與防漏補充
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-KEYWORD,hbomax
