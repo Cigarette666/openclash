@@ -3,6 +3,8 @@ DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,discomax.com
+DOMAIN-SUFFIX,api.max.com
+DOMAIN-SUFFIX,auth.max.com
 
 # Warner / 服務基礎網域
 DOMAIN-SUFFIX,warnermedia.com
