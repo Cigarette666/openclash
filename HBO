@@ -31,3 +31,8 @@ DOMAIN-SUFFIX,go-mpulse.net
 DOMAIN-SUFFIX,akstat.io
 DOMAIN-SUFFIX,litix.io
 DOMAIN-SUFFIX,branch.io
+
+# 區域認證與防漏補充
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com  
+DOMAIN-SUFFIX,disney-plus.net                       
+DOMAIN-KEYWORD,hbomax
